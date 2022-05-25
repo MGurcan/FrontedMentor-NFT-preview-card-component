@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .container{
+      width: 100%;
+      height: 900px;
+      background-color: hsl(217, 54%, 11%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .container .flexbox{
+      
+      
+      border-radius: 10px;
+      width: 350px;
+      height: 500px;
+      background-color: hsl(215, 32%, 27%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    
+    .flexbox img{
+      width: 200px;
+      height: auto;
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    
+    .flexbox h1{
+      font-size: 20px;
+      font-family: sans-serif;
+      color: white;
+      font-weight: bold;
+      
+    }
+    .flexbox h2{
+      font-size: 18px;
+      font-family: sans-serif;
+      color: rgb(186, 188, 236);
+      text-align: center;
+      
+    }
+    .priceLine h3{
+      padding-right: 50px;
+      font-size: 16px;
+      font-family: sans-serif;
+      color: hsl(178, 100%, 50%);
+      
+    }
+    .container h4{
+      
+      font-size: 16px;
+      font-family: sans-serif;
+      color: rgb(186, 188, 236);
+      
+    }
+    .container h5{
+      
+      font-size: 12px;
+      font-family: sans-serif;
+      color: rgb(186, 188, 236);
+      
+    }
+    .priceLine{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      
+    }
+    .priceLine img{
+      width: 10px;
+      height: 20px;
+      padding: 5px;
+      
+    }
+    .container .footer{
+      display: flex;
+      flex-direction: row ;
+      align-items: center;
+    }
+    .footer img{
+      width: 20px;
+      height: 20px;
+      padding: 5px;
+      
+    }
+  </style>
+</head>
+<body>
+
+  
+
+  
+
+  
+ 
+  
+  
+
+  <div class="container">
+
+    <div class="flexbox">
+        <img src="images/image-equilibrium.jpg" alt="">
+
+        <h1>Equilibrium #3429</h1>
+        <h2>Our Equilibrium collection promotes balance and calm.</h2>
+        
+
+        <div class="priceLine">
+          <img src="images/icon-ethereum.svg" alt="ether">
+
+          <h3>0.041 ETH</h3>  
+          
+          <img src="images/icon-clock.svg" alt="clock">
+          <h4> 3 days left</h4>
+        </div>
+        
+        <hr style="size: 2px; width: 300px;">
+
+        <div class="footer">
+          <img src="images/image-avatar.png" alt="">
+          <h5>Creation of Jules Wyvern</h5>
+        </div>
+        
+      </div>
+  </div>
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Mehmet Gürcan</a>.
+  </div>
+</body>
+</html>
